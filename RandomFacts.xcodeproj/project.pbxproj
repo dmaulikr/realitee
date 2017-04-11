@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9873C5651E22C5C800E26DF1 /* FactProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9873C5641E22C5C800E26DF1 /* FactProvider.swift */; };
+		9873E79C1E22F7E60091DCA8 /* ColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9873E79B1E22F7E60091DCA8 /* ColorManager.swift */; };
 		98FFF7221E217F9C00A279DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FFF7211E217F9C00A279DF /* AppDelegate.swift */; };
 		98FFF7241E217F9C00A279DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FFF7231E217F9C00A279DF /* ViewController.swift */; };
 		98FFF7271E217F9C00A279DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98FFF7251E217F9C00A279DF /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9873C5641E22C5C800E26DF1 /* FactProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactProvider.swift; sourceTree = "<group>"; };
+		9873E79B1E22F7E60091DCA8 /* ColorManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorManager.swift; sourceTree = "<group>"; };
 		98FFF71E1E217F9C00A279DF /* RandomFacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomFacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98FFF7211E217F9C00A279DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		98FFF7231E217F9C00A279DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +60,8 @@
 			children = (
 				98FFF7211E217F9C00A279DF /* AppDelegate.swift */,
 				98FFF7231E217F9C00A279DF /* ViewController.swift */,
+				9873C5641E22C5C800E26DF1 /* FactProvider.swift */,
+				9873E79B1E22F7E60091DCA8 /* ColorManager.swift */,
 				98FFF7251E217F9C00A279DF /* Main.storyboard */,
 				98FFF7281E217F9C00A279DF /* Assets.xcassets */,
 				98FFF72A1E217F9C00A279DF /* LaunchScreen.storyboard */,
@@ -139,6 +145,8 @@
 			files = (
 				98FFF7241E217F9C00A279DF /* ViewController.swift in Sources */,
 				98FFF7221E217F9C00A279DF /* AppDelegate.swift in Sources */,
+				9873C5651E22C5C800E26DF1 /* FactProvider.swift in Sources */,
+				9873E79C1E22F7E60091DCA8 /* ColorManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +273,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cross-a.RandomFacts";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -278,6 +287,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cross-a.RandomFacts";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -300,6 +310,7 @@
 				98FFF7321E217F9C00A279DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
